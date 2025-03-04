@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="index.js"></script>
+  </head>
+  <body>
+    <h1>Rock Paper Scissors</h1>
+    <section class="nes-container">
+      <div class="players">
+        <div class="player">
+          <span>PLAYER</span>
+          <i class="nes-pokeball"></i>
+          <span>WINS: <span class="player-wins">0</span></span>
+        </div>
+        <div class="game-result">
+          <span class="result-text">Let's play!</span>
+        </div>
+        <div class="player">
+          <span>COMPUTER</span>
+          <i class="nes-charmander"></i>
+          <span>WINS: <span class="computer-wins">0</span></span>
+        </div>
+      </div>
+      <div class="game-container">
+        <span>Choose rock, paper, or scissors.</span>
+        <span>Remaining turns: <span class="remaining-turns">10</span></span>
+        <div>
+          <button class="nes-btn is-primary">ROCK</button>
+          <button class="nes-btn is-primary">PAPER</button>
+          <button class="nes-btn is-primary">SCISSORS</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
