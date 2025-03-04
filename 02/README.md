@@ -5,3 +5,7 @@
 3. 각 게임 결과를 확인할 수 있습니다.
 4. 플레이어의 승리 수를 볼 수 있습니다.
 5. 모든 게임이 끝나면 승리 수에 따른 결과를 확인할 수 있으며, 게임을 다시 시작할 수 있습니다.
+
+## 구현
+
+![rock-paper-scissors](https://github.com/user-attachments/assets/fefd6429-597a-4fd7-8880-7126a3a58681)
