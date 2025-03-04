@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokédex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="index.js"></script>
+  </head>
+  <body>
+    <h1>Pokédex</h1>
+    <div class="button-container">
+      <button data-type="all" class="nes-btn">ALL</button>
+      <button data-type="fire" class="nes-btn is-error">FIRE</button>
+      <button data-type="electr" class="nes-btn is-warning">ELECTR</button>
+      <button data-type="grass" class="nes-btn is-success">GRASS</button>
+      <button data-type="water" class="nes-btn is-primary">WATER</button>
+    </div>
+    <div class="pokemon-container"></div>
+  </body>
+</html>
