@@ -7,3 +7,5 @@
 음식 메뉴 앱 대신 같은 요구사항을 만족하는 포켓몬 도감을 만들었습니다.
 
 전체 포켓몬과 타입 별 포켓몬을 보여주도록 구현했습니다.
+
+![pokedex](https://github.com/user-attachments/assets/d82c5a72-2a42-42d1-874e-f42212ee2e8b)
